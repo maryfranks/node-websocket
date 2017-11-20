@@ -16,3 +16,5 @@ wss.on("connection", function(ws) {
   ws.send("Welcome to cyber chat");
 
 });
+
+console.log("websocket running on port 3000");
